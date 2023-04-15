@@ -131,3 +131,80 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width: 480px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  form {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  form div {
+    display: block;
+  }
+  
+  form label {
+    display: flex;
+    padding: 1px;
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about img {
+    flex-shrink: 0;
+    width: 35%;
+    padding: 8px;
+  }
+
+  .about p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .piclabel {
+    display: block;
+  }
+
+  .ideasdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ideapic {
+    width: 48%;
+    margin-bottom: 2%;
+  }
+  
+  .piclabel {
+    text-align: center;
+  }
+  
+  .piclabel h3 {
+    margin-top: 0;
+  }
+
+  .host {
+    display: flex;
+  }
+
+  .hosttext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+ 
+  .host img {
+    width: 50%;
+  }
+}
