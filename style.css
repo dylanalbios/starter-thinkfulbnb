@@ -134,7 +134,7 @@ footer p {
 @media all and (min-width: 480px) {
   header {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
@@ -142,6 +142,7 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
   }
+
   
   form div {
     display: block;
@@ -221,5 +222,22 @@ footer p {
  
   .host img {
     width: 50%;
+  }
+}
+
+@media all and (max-width: 930px) {
+  form {
+    flex-direction: column;
+  }
+  
+  form div {
+    display: flex;
+  }
+  
+  form label {
+    font-weight: bold;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
   }
 }
