@@ -60,7 +60,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 50px;
   color: #fff;
 }
 
@@ -132,6 +132,10 @@ footer p {
 
 /* -------  Media Query ------- */
 @media all and (min-width: 480px) {
+  .logo {
+    font-size: 72px;
+  }
+
   header {
     display: flex;
     flex-wrap: wrap;
